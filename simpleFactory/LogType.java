@@ -1,3 +1,3 @@
 public enum LogType {
-    DEBUG
+    DEBUG, INFO
 }

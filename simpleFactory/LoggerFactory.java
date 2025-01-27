@@ -4,7 +4,8 @@ public class LoggerFactory {
         switch (logger) {
             case DEBUG:
                 return new DebugLogger();
-
+            case INFO:
+                return new InfoLogger();
             default:
                 break;
         }

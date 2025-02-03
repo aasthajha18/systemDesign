@@ -5,5 +5,7 @@ public class Main {
         debugLogger.log("aastha::::------::::");
         ILogger infoLogger = LoggerFactory.createLogger(LogType.INFO);
         infoLogger.log("aastha--------------");
+        ILogger errILogger = LoggerFactory.createLogger(LogType.ERROR);
+        errILogger.log("aastha::::::::::: ::::::: ::::::: ERROR   ");
     }
 }

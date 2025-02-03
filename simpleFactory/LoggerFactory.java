@@ -6,6 +6,8 @@ public class LoggerFactory {
                 return new DebugLogger();
             case INFO:
                 return new InfoLogger();
+            case ERROR:
+                return new ErrorLogger();
             default:
                 break;
         }

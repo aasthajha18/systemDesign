@@ -1,4 +1,4 @@
-package systemDesign.factoryMethod;
+package systemDesign.factoryMethod.logger;
 
 public class DebugLoggerFactory implements ILoggerFactory {
 
